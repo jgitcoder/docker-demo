@@ -6,7 +6,7 @@ node {
       }     
       stage('Build image') {         
        
-            app = docker.build("aizjsr95/nodejs-docker-jenkins")    
+            app = docker.build("faizjsr95/nodejs-docker-jenkins")    
       }     
       stage('Test image') {           
             app.inside {            
